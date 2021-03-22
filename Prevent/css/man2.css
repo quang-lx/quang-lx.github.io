@@ -51,9 +51,9 @@ ul{
 }
 .box-modul-content{
     margin-top: 20px;
-    min-height: 1000px;
     background-color: #bfe7e4;
     border-radius: 10px;
+    padding-bottom: 20px;
 }
 
 .box-modul-content .title-box {
@@ -153,6 +153,7 @@ position: relative;
     margin-bottom: 60px;
 }
 .box-modul-content .inside-box .select-table .button-download button{
+    padding: 10px;
     font-size: 13px;
     font-weight: 500;
     border-radius: 20px 20px;
@@ -181,6 +182,13 @@ background: linear-gradient(36deg, rgba(247,247,247,1) 0%, rgba(255,244,192,1) 1
 .box-modul-content .inside-box .select-table .evaluate{
     text-align: right;
     font-size: 6px;
+}
+
+.box-modul-see-ratings .content{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #9fc9e5; 
+    border-radius: 10px;
 }
 
 
