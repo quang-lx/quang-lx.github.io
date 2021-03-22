@@ -1,0 +1,30 @@
+.button-navbar{
+    border: none;
+}
+p{
+    margin: 0px;
+}
+.marked-red{
+    color: red;
+}
+.navbar-content{
+    height: 70px;
+}
+.logo img{
+    width: 100%;
+}
+.content-box{
+    text-align: center;
+    height: 310px;
+}
+.footer{
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer .box-color{
+    background-color: #9fc9e5;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
