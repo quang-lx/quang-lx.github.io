@@ -150,13 +150,37 @@ position: relative;
     padding: 2px;
     border: 1px solid #999999;
     font-size: 7px;
+    margin-bottom: 60px;
+}
+.box-modul-content .inside-box .select-table .button-download button{
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 20px 20px;
+}
+
+.box-modul-content .inside-box .select-table .title-select{
+    font-size: 7px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .box-modul-content .inside-box .select-table .select{
-height: 100px;
-width: 100px;
+width: 100%;
+height: 150px;
 background: rgb(247,247,247);
 background: linear-gradient(36deg, rgba(247,247,247,1) 0%, rgba(255,244,192,1) 16%, rgba(253,221,162,1) 32%, rgba(252,214,148,1) 46%, rgba(249,195,111,1) 64%, rgba(246,183,88,1) 79%, rgba(240,154,37,1) 89%, rgba(234,89,9,1) 94%, rgba(226,21,12,1) 100%);
+}
+
+.box-modul-content .inside-box .select-table .select-note{
+    writing-mode: vertical-rl; 
+    font-size: 6px;
+    margin-right: 3px;
+}
+
+.box-modul-content .inside-box .select-table .evaluate{
+    text-align: right;
+    font-size: 6px;
 }
 
 
