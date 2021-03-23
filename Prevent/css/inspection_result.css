@@ -184,11 +184,11 @@ background: rgb(247,247,247);
 background: linear-gradient(36deg, rgba(247,247,247,1) 0%, rgba(255,244,192,1) 16%, rgba(253,221,162,1) 32%, rgba(252,214,148,1) 46%, rgba(249,195,111,1) 64%, rgba(246,183,88,1) 79%, rgba(240,154,37,1) 89%, rgba(234,89,9,1) 94%, rgba(226,21,12,1) 100%);
 }
 
-.box-content .inside-box .select-table .select:after {
+/* .box-content .inside-box .select-table .select:after {
     content: "";
     display: block;
     padding-bottom: 100%;
-  }
+  } */
 
 .box-content .inside-box .select-table .select-note{
     writing-mode: vertical-rl; 
@@ -309,10 +309,10 @@ background: linear-gradient(36deg, rgba(247,247,247,1) 0%, rgba(255,244,192,1) 1
 .box-advice .evaluate-one::before {
     content: '';
     position: absolute;
-    bottom: -540px;
+    bottom: -613px;
     left: 30px;
     width: 1px;
-    height: 540px;
+    height: 613px;
     background: #b0b0b0;
 }
 
@@ -320,20 +320,58 @@ background: linear-gradient(36deg, rgba(247,247,247,1) 0%, rgba(255,244,192,1) 1
     content: '';
     position: absolute;
     top: 50%;
-    left: -19px;
+    left: -16px;
     width: 1px;
-    height: 36px;
+    height: 29px;
     background: #b0b0b0;
     transform: rotate(90deg);
 
 }
 
 .advice-modul{
-    width: 405px;
+    width: 364px;
 }
 
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 375px) {
+    .box-content .box {
+        width: 309px;
+    }
+    .box-content .box .image-index {
+        position: absolute;
+        top: 85px;
+        left: 107px;
+        width: 27px;
+    }
+
+    .advice-modul{
+        width: 270px;
+    }
+
+    .box-advice .evaluate-one::before {
+        content: '';
+        position: absolute;
+        bottom: -785px;
+        left: 30px;
+        width: 1px;
+        height: 785px;
+        background: #b0b0b0;
+    }
+
+    .box-advice .evaluate-two::before, .box-advice .evaluate-three::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: -8px;
+        width: 1px;
+        height: 15px;
+        background: #b0b0b0;
+        transform: rotate(90deg);
+    }
+    
+  }
+
+  @media screen and (max-width: 320px) {
     .box-content .box {
         width: 244px;
     }
