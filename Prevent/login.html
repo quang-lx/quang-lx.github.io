@@ -12,57 +12,43 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-dark bg-primary navbar-content py-3">
+        <button class="navbar-toggler button-navbar" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars fa-lg text-white"></i>
+        </button>
+    </nav>
     <div class="container">
-        <div class="pos-f-t row">
-            <nav class="navbar navbar-dark bg-primary navbar-content col-12">
-                <button class="navbar-toggler button-navbar" type="button" data-toggle="collapse"
-                    data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars" style=" color: white;"></i>
-                </button>
-            </nav>
-            <!-- <div class="collapse" id="navbarToggleExternalContent">
-                <div class="bg-dark p-4">
-                    <h4 class="text-white">Collapsed content</h4>
-                    <span class="text-muted">Toggleable via the navbar brand.</span>
-                </div>
-            </div> -->
+        <div class="row my-5">
+            <div class="col text-center">
+                <img class="img-fluid" src="./images/logo.png" alt="">
+            </div>
         </div>
-        <div class="container">
-            <div class="row logo mt-4">
-                <div class="col-md-12">
-                    <img src="./images/logo.png" alt="">
-                </div>
+        <div class="row text-center">
+            <div class="col">
+                <p class="h2">リスク検査</p>
+                <p class="display-2 font-weight-normal">Noah</p>
+                <p class="my-3">
+                    <span class="text-red">N</span>on-invasive <span class="text-red">o</span>nco-risk <span class="text-red">a</span>ssessment for <span class="text-red">h</span>ealth
+                </p>
+                <p class="h1">検査結果</p>
             </div>
-
-            <div class="row content-box">
-                <div class="col-md-12">
-                    <h4>リスク検査</h4>
-                    <h1>Noah</h1>
-                    <p class="mb-2"> <span class="marked-red">N</span>on-invasive <span
-                            class="marked-red">o</span>nco-risk <span class="marked-red">a</span>ssessment for <span
-                            class="marked-red">h</span>ealth</p>
-                    <h2>検 査 結 果</h2>
-                </div>
-            </div>
-
-            <div class="row form-login">
-                <div class="form-group col-12 ">
-                    <input type="text" class="form-control col-6 mx-auto" id="exampleInputEmail1"
-                        aria-describedby="emailHelp" placeholder="ユーザID">
-                </div>
-                <div class="form-group col-12 mb-5">
-                    <input type="text" class="form-control col-6 mx-auto" id="exampleInputPassword1"
-                        placeholder="パスワード">
-                </div>
-                <div class="col-12 mt-2">
-                    <button type="submit" class="form-control btn-primary col-6 mx-auto">ログイン</button>
-                </div>
-
+        </div>
+        <div class="row p-5">
+            <div class="col">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control bg-light" placeholder="ユーザID">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control bg-light" placeholder="パスワード">
+                    </div>
+                    <div class="text-center pt-3">
+                        <a href="caution.html" type="submit" class="btn btn-primary">ログイン</a>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
-
     <script src="./js/jquery-1.9.1.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>

@@ -1,35 +1,4 @@
-.title-page p{
-    height: 50px;
-    text-align: center;
-    color: #fff;
-    background-color: red;
-    line-height: 50px;
-    word-spacing: 10px;
-    font-size: 22px;
-    margin-top: 10px;
-    font-weight: 500;
-}
-
-.title-content{
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    word-spacing: 10px;
-    font-size: 22px;
-    margin-top: 10px;
-    font-weight: 500;
-}
-
-.content p,.content span{
-    font-size: 16px;
-}
-
-.footer{
-    text-align: center;
-    font-size: 20px;
-}
-
-.footer .box-color{
+.box-color {
     background-color: #9fc9e5;
     border-radius: 10px;
     padding: 10px;
