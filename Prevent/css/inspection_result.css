@@ -4,6 +4,9 @@
     margin: 0px;
     /* font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; */
 }
+body{
+    padding: 10px;
+}
 p{
     margin: 0px;
 }
@@ -21,15 +24,18 @@ ul{
     padding-left: 0px;
     padding-right: 0px;
 }
+
+.col-4-update {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 40%;
+    max-width: 40%;
+}
+
 .box-header .box1{
     height: 30px;
     margin-top: 10px;
     
     background-color: #00a092;
-}
-.box-title{
-    margin-top: 10px;
-    text-align: center;
 }
 
 .box-title p{
@@ -60,17 +66,14 @@ ul{
     margin-right: 10px;
 }
 .box-content-list .box-list{
-    margin-top: 15px;
     border-bottom: 1px solid #999999;
 }
 .box-content-list span{
     font-weight: 550;
 }
 .box-content{
-    margin-top: 20px;
     background-color: #bfe7e4;
     border-radius: 10px;
-    padding-bottom: 20px;
 }
 
 .box-content .title-box {
@@ -90,22 +93,21 @@ ul{
 
 .box-content .inside-box .content{
     background-color: #fff;
-    /* min-height: 300px; */
-    padding: 10px;
 }
 
 .box-content .box{
 position: relative;
+width: 335px;
 }
 .box-content .box .image-index{
     position: absolute;
-    top: 60px;
-    left: 109px;
+    top: 73px;
+    left: 116px;
     width: 30px;
 }
 .box-content .box-left{
     border: 2px solid #26aea2;
-    height: 157px;
+    height: 175px;
 }
 
 .box-content .box-left .title{
@@ -139,12 +141,8 @@ position: relative;
 .box-content .box-right .title p{
     text-align: center;
     font-size: 13px;
-    /* padding: 3px; */
     color: #fff;
 }
-/* .box-content .box-right .text-value{
-    height: 20px;
-} */
 
 .box-content .box-right .text-value{
     font-size: 20px;
@@ -154,15 +152,12 @@ position: relative;
 
 .box-content .inside-box .note{
     font-size: 13px;
-    margin-top: 10px;
 }
 
 .box-content .inside-box .note .title{
     font-weight: bold;
 }
-.box-content .inside-box .select-table {
-    margin-top: 20px;
-}
+
 .box-content .inside-box .select-table .note-select{
     padding: 2px;
     border: 1px solid #999999;
@@ -170,7 +165,6 @@ position: relative;
     margin-bottom: 60px;
 }
 .box-content .inside-box .select-table .button-download button{
-    padding: 10px;
     font-size: 13px;
     font-weight: 500;
     border-radius: 20px 20px;
@@ -206,9 +200,7 @@ background: linear-gradient(36deg, rgba(247,247,247,1) 0%, rgba(255,244,192,1) 1
     text-align: right;
     font-size: 13px;
 }
-.box-see-ratings{
-    margin-top: 10px;
-}
+
 .box-see-ratings .content{
     padding: 10px;
     margin-top: 10px;
@@ -218,11 +210,7 @@ background: linear-gradient(36deg, rgba(247,247,247,1) 0%, rgba(255,244,192,1) 1
 }
 
 .box-percentile{
-    border: 1px solid #a7a7a7;
-    margin-top: 20px;
-    /* margin-bottom: 10px; */
-    padding-bottom: 10px;
-    
+    border: 1px solid #a7a7a7;    
 }
 
 .box-percentile .title{
@@ -257,7 +245,6 @@ background: linear-gradient(36deg, rgba(247,247,247,1) 0%, rgba(255,244,192,1) 1
     opacity: 0.7;
     -webkit-transition: .2s;
     transition: opacity .2s;
-    padding: 15px;
   }
   
   .slidecontainer .slider:hover {
@@ -285,30 +272,104 @@ background: linear-gradient(36deg, rgba(247,247,247,1) 0%, rgba(255,244,192,1) 1
     font-size: 11px;
 }
 
-.box-risk-rating .box-risk{
+.box-inside-rating .box-inside,.box-advice .box-inside{
     border: 1px solid #999999;
     padding: 20px 0px;
     margin-bottom: 20px;
 }
 
-.box-risk-rating .box-risk p{
+.box-inside-rating .box-inside,.box-advice .box-inside p{
     font-size: 13px;
 }
 
 
-.box-risk-rating .box-risk .caption{
-    text-align: center;
+.box-inside-rating .box-inside .caption,.box-advice .box-inside .caption{
     line-height: auto;
     border-right: 3px solid #2db0a5;
 }
 
 .box-interpretation-results .box-result{
-    padding: 10px;
     border: 1px solid #999999;
 }
 
-.box-interpretation-results .box-result p{
+.box-interpretation-results p{
     font-size: 13px;
 }
+
+.box-interpretation-results .box-result h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: #595858;
+}
+
+.box-advice .evaluate-one,.evaluate-two,.evaluate-three{
+    position: relative;
+}
+
+.box-advice .evaluate-one::before {
+    content: '';
+    position: absolute;
+    bottom: -540px;
+    left: 30px;
+    width: 1px;
+    height: 540px;
+    background: #b0b0b0;
+}
+
+.box-advice .evaluate-two::before,.box-advice .evaluate-three::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -19px;
+    width: 1px;
+    height: 36px;
+    background: #b0b0b0;
+    transform: rotate(90deg);
+
+}
+
+.advice-modul{
+    width: 405px;
+}
+
+
+@media screen and (max-width: 424px) {
+    .box-content .box {
+        width: 244px;
+    }
+    .box-content .box .image-index {
+        position: absolute;
+        top: 85px;
+        left: 81px;
+        width: 27px;
+    }
+
+    .advice-modul{
+        width: 270px;
+    }
+
+    .box-advice .evaluate-one::before {
+        content: '';
+        position: absolute;
+        bottom: -785px;
+        left: 30px;
+        width: 1px;
+        height: 785px;
+        background: #b0b0b0;
+    }
+
+    .box-advice .evaluate-two::before, .box-advice .evaluate-three::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: -8px;
+        width: 1px;
+        height: 15px;
+        background: #b0b0b0;
+        transform: rotate(90deg);
+    }
+    
+  }
+
 
 
