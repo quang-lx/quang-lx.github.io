@@ -22,3 +22,17 @@ ul{
 .f-s-30 {
     font-size: 30px;
 }
+.bg-pink-box {
+    background-color: #EF7E8B;
+
+}
+.bg-white-box {
+
+    position: relative;
+    padding: 20px;
+
+}
+.bg-white {
+    background-color: #fff;
+
+}
