@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+p{
+    margin: 0px;
+}
+img{
+    width: 100%;
+}
+ul{
+    margin: 0px;
+}
+.bg-35-gray {
+    background-color: #999999;
+    height: 35px;
+}
+.txt-color-pink {
+    color: #EF7E8B;
+}
+.f-s-30 {
+    font-size: 30px;
+}
