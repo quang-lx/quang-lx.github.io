@@ -19,20 +19,15 @@ ul{
 .txt-color-pink {
     color: #EF7E8B;
 }
-.f-s-30 {
-    font-size: 30px;
-}
 .bg-pink-box {
     background-color: #EF7E8B;
 
 }
-.bg-white-box {
-
-    position: relative;
-    padding: 20px;
+.bg-pink1-box {
+    background-color: #FADADE;
 
 }
-.bg-white {
-    background-color: #fff;
-
+.hr-vertical {
+    height: 100%;
+    border-left: 2px solid #EE7785;
 }
