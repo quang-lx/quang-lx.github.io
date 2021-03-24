@@ -120,11 +120,13 @@ width: 335px;
     padding: 3px;
     color: #fff;
 }
-
+.box-content .box-left .text-value{
+    height: 70%;
+}
 .box-content .box-left .text-value p{
-    font-size: 30px;
+    font-size: 4rem;
     text-align: center;
-    font-weight: bold;
+    font-weight: 500;
     color: #717071;
 }
 
@@ -428,6 +430,10 @@ background: linear-gradient(36deg, rgba(247,247,247,1) 0%, rgba(255,244,192,1) 1
         height: 15px;
         background: #b0b0b0;
         transform: rotate(90deg);
+    }
+
+    .box-content .box-left .text-value{
+        height: 55%;
     }
     
   }
