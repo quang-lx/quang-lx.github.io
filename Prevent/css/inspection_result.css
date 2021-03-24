@@ -14,8 +14,6 @@ p {
     margin: 0px;
 }
 
-
-.col-12-update,
 .col-7,
 .col-5 {
     padding-right: 10px;
@@ -74,7 +72,6 @@ p {
     color: #717071;
 }
 
-
 .box-content .box-right {
     border: 2px solid #26aea2;
     margin-bottom: 5px;
@@ -99,7 +96,6 @@ p {
 
 .square-box {
     position: relative;
-
 }
 
 .square-select .check-note {
@@ -194,7 +190,6 @@ p {
     font-size: 16px;
 }
 
-
 .box-inside-rating .box-inside .caption,
 .box-advice .box-inside .caption {
     line-height: auto;
@@ -239,13 +234,11 @@ p {
     height: 34px;
     background: #b0b0b0;
     transform: rotate(90deg);
-
 }
 
 .advice-modul {
     width: 394px;
 }
-
 
 .bg-gray {
     background-color: #999999;
@@ -271,19 +264,14 @@ p {
 }
 
 .btn-round-30 {
-
     border-radius: 30px;
 }
 
-
 @media screen and (min-width: 426px) {
-
     .advice-modul {
         width: 394px;
         margin: 0 auto;
-        /* margin: 0px 0px 0px 0px; */
     }
-
 }
 
 @media screen and (max-width: 425px) {
@@ -300,7 +288,6 @@ p {
 
     .advice-modul {
         width: 394px;
-        /* margin: 0px 0px 0px 0px; */
     }
 
     .box-advice .evaluate-one::before {
@@ -327,16 +314,15 @@ p {
 
 }
 
-
 @media screen and (max-width: 375px) {
     .box-content .box {
-        width: 309px;
+        width: 299px;
     }
 
     .box-content .box .image-index {
         position: absolute;
         top: 85px;
-        left: 107px;
+        left: 102px;
         width: 27px;
     }
 
@@ -365,7 +351,6 @@ p {
         background: #b0b0b0;
         transform: rotate(90deg);
     }
-
 }
 
 @media screen and (max-width: 320px) {
@@ -409,7 +394,6 @@ p {
     .box-content .box-left .text-value {
         height: 55%;
     }
-
 }
 
 .square-box table {
