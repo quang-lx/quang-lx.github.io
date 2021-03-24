@@ -357,6 +357,37 @@ background: linear-gradient(36deg, rgba(247,247,247,1) 0%, rgba(255,244,192,1) 1
     width: 394px;
 }
 
+
+.bg-35-gray {
+    background-color: #999999;
+    height: 35px;
+}
+
+.txt-color-pink {
+    color: #EF7E8B;
+}
+
+.bg-pink-box {
+    background-color: #EF7E8B;
+
+}
+
+.bg-pink1-box {
+    background-color: #FADADE;
+    border-radius: 10px;
+}
+
+.hr-vertical {
+    height: 100%;
+    border-left: 2px solid #EE7785;
+}
+
+.btn-round-30 {
+
+    border-radius: 30px;
+}
+
+
 @media screen and (min-width: 426px) {
 
     .advice-modul{
