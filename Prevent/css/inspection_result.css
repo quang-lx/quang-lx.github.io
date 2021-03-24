@@ -533,12 +533,33 @@ ul {
     background: linear-gradient(36deg, rgba(247, 247, 247, 1) 0%, rgba(255, 244, 192, 1) 16%, rgba(253, 221, 162, 1) 32%, rgba(252, 214, 148, 1) 46%, rgba(249, 195, 111, 1) 64%, rgba(246, 183, 88, 1) 79%, rgba(240, 154, 37, 1) 89%, rgba(234, 89, 9, 1) 94%, rgba(226, 21, 12, 1) 100%);
   }
 
-  td {
+  /* td {
   
     display: inline-block;
     width: 16.666667%;
     padding-bottom: 16.666667%;
     border: 1px solid #fff; 
    
+  }
+
+  table {
+    width: 100%;
+  } */
+  td {
+    width: 16.666666666667%;
+    position: relative;
+    border: 1px solid #fff;
+  }
+  td:after {
+    content: '';
+    display: block;
+    margin-top: 100%;
+  }
+  td .content_square {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 

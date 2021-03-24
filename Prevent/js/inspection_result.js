@@ -7,7 +7,7 @@ function drawSquare() {
     for (let row = 0; row < amount_row; row++) {
         html_square += "<tr>";
         for (let column = 0; column <amount_column; column++) {
-            html_square+="<td></td>"         
+            html_square+=`<td><div class="content_square"></div></td>`        
         }
         html_square += "</tr>";
     } 
