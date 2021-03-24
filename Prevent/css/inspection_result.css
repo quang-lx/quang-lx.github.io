@@ -354,8 +354,57 @@ background: linear-gradient(36deg, rgba(247,247,247,1) 0%, rgba(255,244,192,1) 1
 }
 
 .advice-modul{
-    width: 364px;
+    width: 394px;
 }
+
+@media screen and (min-width: 426px) {
+
+    .advice-modul{
+        width: 394px;
+        margin: 0 auto;
+        /* margin: 0px 0px 0px 0px; */
+    }
+    
+  }
+
+@media screen and (max-width: 425px) {
+    .box-content .box {
+        width: 309px;
+    }
+    .box-content .box .image-index {
+        position: absolute;
+        top: 85px;
+        left: 107px;
+        width: 27px;
+    }
+
+    .advice-modul{
+        width: 394px;
+        /* margin: 0px 0px 0px 0px; */
+    }
+
+    .box-advice .evaluate-one::before {
+        content: '';
+        position: absolute;
+        bottom: -818px;
+        left: 30px;
+        width: 1px;
+        height: 818px;
+        background: #b0b0b0;
+    }
+
+    .box-advice .evaluate-two::before, .box-advice .evaluate-three::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: -18px;
+        width: 1px;
+        height: 35px;
+        background: #b0b0b0;
+        transform: rotate(90deg);
+    }
+    
+  }
 
 
 @media screen and (max-width: 375px) {
@@ -370,16 +419,16 @@ background: linear-gradient(36deg, rgba(247,247,247,1) 0%, rgba(255,244,192,1) 1
     }
 
     .advice-modul{
-        width: 270px;
+        width: 355px;
     }
 
     .box-advice .evaluate-one::before {
         content: '';
         position: absolute;
-        bottom: -1240px;
+        bottom: -862px;
         left: 30px;
         width: 1px;
-        height: 1240px;
+        height: 862px;
         background: #b0b0b0;
     }
 
@@ -387,9 +436,9 @@ background: linear-gradient(36deg, rgba(247,247,247,1) 0%, rgba(255,244,192,1) 1
         content: '';
         position: absolute;
         top: 50%;
-        left: -8px;
+        left: -15px;
         width: 1px;
-        height: 15px;
+        height: 28px;
         background: #b0b0b0;
         transform: rotate(90deg);
     }
@@ -408,16 +457,16 @@ background: linear-gradient(36deg, rgba(247,247,247,1) 0%, rgba(255,244,192,1) 1
     }
 
     .advice-modul{
-        width: 270px;
+        width: 300px;
     }
 
     .box-advice .evaluate-one::before {
         content: '';
         position: absolute;
-        bottom: -1240px;
+        bottom: -1085px;
         left: 30px;
         width: 1px;
-        height: 1240px;
+        height: 1085px;
         background: #b0b0b0;
     }
 
@@ -425,9 +474,9 @@ background: linear-gradient(36deg, rgba(247,247,247,1) 0%, rgba(255,244,192,1) 1
         content: '';
         position: absolute;
         top: 50%;
-        left: -8px;
+        left: -11px;
         width: 1px;
-        height: 15px;
+        height: 18px;
         background: #b0b0b0;
         transform: rotate(90deg);
     }
