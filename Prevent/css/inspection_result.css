@@ -149,10 +149,12 @@ p {
     padding: 20px 0px;
     margin-bottom: 20px;
 }
-.box-inside-rating .box-inside, .box-advice .box-inside p {
-    font-size: 16px;
+
+.box-advice .box-inside .caption {
+    line-height: auto;
+    border-bottom: 3px solid #2db0a5;
 }
-.box-inside-rating .box-inside .caption, .box-advice .box-inside .caption {
+.box-inside-rating .box-inside .caption {
     line-height: auto;
     border-right: 3px solid #2db0a5;
 }
