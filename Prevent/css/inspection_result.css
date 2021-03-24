@@ -195,18 +195,8 @@ ul {
 
 .square-box {
     position: relative;
-    width: 100%;
-    overflow: hidden;
-    background: rgb(247, 247, 247);
-    background: linear-gradient(36deg, rgba(247, 247, 247, 1) 0%, rgba(255, 244, 192, 1) 16%, rgba(253, 221, 162, 1) 32%, rgba(252, 214, 148, 1) 46%, rgba(249, 195, 111, 1) 64%, rgba(246, 183, 88, 1) 79%, rgba(240, 154, 37, 1) 89%, rgba(234, 89, 9, 1) 94%, rgba(226, 21, 12, 1) 100%);
+   
 }
-
-.square-box:before {
-    content: "";
-    display: block;
-    padding-top: 100%;
-}
-
 
 
 .square-select .check-note {
@@ -215,8 +205,8 @@ ul {
     height: 10px;
     border-radius: 50%;
     position: absolute;
-    width: 10px;
-    height: 10px;
+    width: 2vw;
+    height: 2vw;
     border-radius: 50%;
     background: #000;
     left: 13%;
@@ -535,6 +525,20 @@ ul {
     }
 
 }
+.square-box table {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: rgb(247, 247, 247);
+    background: linear-gradient(36deg, rgba(247, 247, 247, 1) 0%, rgba(255, 244, 192, 1) 16%, rgba(253, 221, 162, 1) 32%, rgba(252, 214, 148, 1) 46%, rgba(249, 195, 111, 1) 64%, rgba(246, 183, 88, 1) 79%, rgba(240, 154, 37, 1) 89%, rgba(234, 89, 9, 1) 94%, rgba(226, 21, 12, 1) 100%);
+  }
 
-
+  td {
+  
+    display: inline-block;
+    width: 16.666667%;
+    padding-bottom: 16.666667%;
+    border: 1px solid #fff; 
+   
+  }
 
