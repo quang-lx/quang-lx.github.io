@@ -232,7 +232,7 @@ ul {
 
 .box-content .inside-box .select-table .evaluate {
     text-align: right;
-    font-size: 13px;
+    font-size: 10px;
 }
 
 .box-see-ratings .content {
@@ -332,6 +332,10 @@ ul {
     font-size: 16px;
 }
 
+.box-interpretation-results img {
+    max-width: 500px;
+}
+
 .box-interpretation-results .box-result h4 {
     font-size: 16px;
     font-weight: bold;
@@ -345,10 +349,10 @@ ul {
 .box-advice .evaluate-one::before {
     content: '';
     position: absolute;
-    bottom: -863px;
+    bottom: -816px;
     left: 30px;
     width: 1px;
-    height: 863px;
+    height: 816px;
     background: #b0b0b0;
 }
 
@@ -356,9 +360,9 @@ ul {
     content: '';
     position: absolute;
     top: 50%;
-    left: -16px;
+    left: -18px;
     width: 1px;
-    height: 29px;
+    height: 34px;
     background: #b0b0b0;
     transform: rotate(90deg);
 
