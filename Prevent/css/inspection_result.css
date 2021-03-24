@@ -207,13 +207,7 @@ ul {
     padding-top: 100%;
 }
 
-.square-select {
-    position: relative;
-}
 
-.square-select {
-    position: relative;
-}
 
 .square-select .check-note {
     position: absolute;
@@ -225,8 +219,8 @@ ul {
     height: 10px;
     border-radius: 50%;
     background: #000;
-    left: 30px;
-    top: 100px;
+    left: 13%;
+    top: 65%;
 }
 
 
@@ -271,7 +265,7 @@ ul {
 }
 
 .slidecontainer {
-    font-size: 11px;
+    font-size: 15px;
     font-weight: bold;
 }
 
