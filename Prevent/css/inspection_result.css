@@ -1,8 +1,9 @@
-* {
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
-    /* font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; */
+.bg-green {
+    background: #00a092;
+    }
+    
+.text-green {
+    color: #00a092;
 }
 
 body {
@@ -13,73 +14,16 @@ p {
     margin: 0px;
 }
 
-img {
-    width: 100%;
-}
-
-ul {
-    margin: 0px;
-}
 
 .col-12-update, .col-7, .col-5 {
     padding-right: 10px;
     padding-left: 10px;
 }
-
-.col-1-update, .col-1-update {
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
 .col-4-update {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 40%;
     max-width: 40%;
 }
-
-.box-header .box1 {
-    height: 30px;
-    margin-top: 10px;
-
-    background-color: #00a092;
-}
-
-.box-title p {
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.box-content-list {
-    font-size: 16px;
-}
-
-.box-header .title p {
-    color: #079ba8;
-    font-size: 16px;
-    font-weight: bold;
-    margin: 10px 0px;
-}
-
-
-.box-content-list ul li {
-    list-style: none;
-    padding-bottom: 5px;
-    font-size: 15px;
-}
-
-.box-content-list i {
-    color: #00a092;
-    margin-right: 10px;
-}
-
-.box-content-list .box-list {
-    border-bottom: 1px solid #999999;
-}
-
-.box-content-list span {
-    font-weight: 550;
-}
-
 .box-content {
     background-color: #bfe7e4;
     border-radius: 10px;
@@ -100,10 +44,6 @@ ul {
     padding: 0px 20px 0px 20px;
 }
 
-.box-content .inside-box .content {
-    background-color: #fff;
-}
-
 .box-content .box {
     position: relative;
     width: 335px;
@@ -121,25 +61,12 @@ ul {
     height: 175px;
 }
 
-.box-content .box-left .title {
-    background-color: #26aea2;
-}
-
-.box-content .box-left .title p {
-    text-align: center;
-    font-size: 16px;
-    padding: 3px;
-    color: #fff;
-}
-
 .box-content .box-left .text-value {
     height: 70%;
 }
 
 .box-content .box-left .text-value p {
     font-size: 4rem;
-    text-align: center;
-    font-weight: 500;
     color: #717071;
 }
 
@@ -149,56 +76,27 @@ ul {
     margin-bottom: 5px;
 }
 
-.box-content .box-right .title {
-    background-color: #26aea2;
-}
-
 .box-content .box-right .title p {
-    text-align: center;
     font-size: 13px;
-    color: #fff;
 }
 
 .box-content .box-right .text-value {
     font-size: 20px;
-    text-align: center;
     color: #717071;
 }
 
-.box-content .inside-box .note {
-    font-size: 16px;
-}
-
-.box-content .inside-box .note .title {
-    font-weight: bold;
-}
-
 .box-content .inside-box .select-table .note-select {
-    padding: 2px;
     border: 1px solid #999999;
-    font-size: 16px;
-    margin-bottom: 60px;
 }
 
 .box-content .inside-box .select-table .button-download button {
-    font-size: 16px;
-    font-weight: 500;
     border-radius: 20px 20px;
-}
-
-.box-content .inside-box .select-table .title-select {
-    font-size: 16px;
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 5px;
 }
 
 .square-box {
     position: relative;
    
 }
-
-
 .square-select .check-note {
     position: absolute;
     width: 10px;
@@ -213,7 +111,6 @@ ul {
     top: 65%;
 }
 
-
 .box-content .inside-box .select-table .select-note {
     writing-mode: vertical-rl;
     font-size: 10px;
@@ -221,16 +118,12 @@ ul {
 }
 
 .box-content .inside-box .select-table .evaluate {
-    text-align: right;
     font-size: 10px;
 }
 
 .box-see-ratings .content {
-    padding: 10px;
-    margin-top: 10px;
     background-color: #9fc9e5;
     border-radius: 10px;
-    text-align: center;
 }
 
 .box-percentile {
@@ -239,24 +132,10 @@ ul {
 
 .box-percentile .title {
     background-color: #999999;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-}
-
-.box-percentile p {
-    font-size: 16px;
-    font-weight: 500;
 }
 
 .box-percentile h4 {
-    text-align: center;
     color: #5c5a5a;
-}
-
-.slidecontainer {
-    font-size: 15px;
-    font-weight: bold;
 }
 
 .slidecontainer .slider {
@@ -318,17 +197,11 @@ ul {
     border: 1px solid #999999;
 }
 
-.box-interpretation-results p {
-    font-size: 16px;
-}
-
 .box-interpretation-results img {
     max-width: 500px;
 }
 
 .box-interpretation-results .box-result h4 {
-    font-size: 16px;
-    font-weight: bold;
     color: #595858;
 }
 
@@ -533,29 +406,17 @@ ul {
     background: linear-gradient(36deg, rgba(247, 247, 247, 1) 0%, rgba(255, 244, 192, 1) 16%, rgba(253, 221, 162, 1) 32%, rgba(252, 214, 148, 1) 46%, rgba(249, 195, 111, 1) 64%, rgba(246, 183, 88, 1) 79%, rgba(240, 154, 37, 1) 89%, rgba(234, 89, 9, 1) 94%, rgba(226, 21, 12, 1) 100%);
   }
 
-  /* td {
-  
-    display: inline-block;
-    width: 16.666667%;
-    padding-bottom: 16.666667%;
-    border: 1px solid #fff; 
-   
-  }
-
-  table {
-    width: 100%;
-  } */
-  td {
+  .square-box td {
     width: 16.666666666667%;
     position: relative;
     border: 1px solid #fff;
   }
-  td:after {
+  .square-box td:after {
     content: '';
     display: block;
     margin-top: 100%;
   }
-  td .content_square {
+  .square-box td .content_square {
     position: absolute;
     top: 0;
     bottom: 0;
