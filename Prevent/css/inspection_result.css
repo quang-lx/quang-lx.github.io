@@ -190,6 +190,7 @@ p {
 
 .box-interpretation-results img {
     max-width: 500px;
+    height: auto;
 }
 
 .box-interpretation-results .box-result h4 {
