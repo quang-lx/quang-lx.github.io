@@ -14,6 +14,11 @@ p {
     margin: 0px;
 }
 
+.border-gray {
+    border-color: #999999 !important;
+}
+
+
 .col-7,
 .col-5 {
     padding-right: 10px;
@@ -60,7 +65,7 @@ p {
 
 .box-content .box-left {
     border: 2px solid #26aea2;
-    height: 175px;
+    height: 100%;
 }
 
 .box-content .box-left .text-value {
@@ -68,13 +73,12 @@ p {
 }
 
 .box-content .box-left .text-value p {
-    font-size: 4rem;
+    font-size: 5rem;
     color: #717071;
 }
 
 .box-content .box-right {
     border: 2px solid #26aea2;
-    margin-bottom: 5px;
 }
 
 .box-content .box-right .title p {
@@ -110,12 +114,6 @@ p {
     background: #000;
     left: 13%;
     top: 65%;
-}
-
-.box-content .inside-box .select-table .select-note {
-    writing-mode: vertical-rl;
-    font-size: 2.6vw;
-    margin-right: 3px;
 }
 
 .box-content .inside-box .select-table .evaluate {
@@ -174,10 +172,6 @@ p {
     cursor: pointer;
 }
 
-.box-note-percentile {
-    font-size: 11px;
-}
-
 .box-inside-rating .box-inside,
 .box-advice .box-inside {
     border: 1px solid #999999;
@@ -189,6 +183,7 @@ p {
     line-height: auto;
     border-bottom: 3px solid #2db0a5;
 }
+
 .box-inside-rating .box-inside .caption {
     line-height: auto;
     border-right: 3px solid #2db0a5;
@@ -225,7 +220,7 @@ p {
     /* transform: rotate(90deg); */
 }
 
-.box-advice .evaluate-two::after{
+.box-advice .evaluate-two::after {
     content: '';
     position: absolute;
     bottom: 0%;
@@ -245,6 +240,7 @@ p {
     background: #b0b0b0;
     /* transform: rotate(90deg); */
 }
+
 .bg-gray {
     background-color: #999999;
 }
@@ -272,15 +268,19 @@ p {
     border-radius: 30px;
 }
 
+.bg-light-blue {
+    background-color: #9fc9e5;
+}
+
 @media screen and (max-width: 768px) {
     .box-content .inside-box .select-table .select-note {
         writing-mode: vertical-rl;
-        font-size: 13px;
-        margin-right: 3px;
+        font-size: 12px;
+        margin-top: -1rem;
     }
-    
+
     .box-content .inside-box .select-table .evaluate {
-        font-size: 13px;
+        font-size: 12px;
     }
 
 }
@@ -289,9 +289,8 @@ p {
     .box-content .inside-box .select-table .select-note {
         writing-mode: vertical-rl;
         font-size: 16px;
-        margin-right: 3px;
     }
-    
+
     .box-content .inside-box .select-table .evaluate {
         font-size: 16px;
     }
@@ -300,6 +299,7 @@ p {
         width: 1vw;
         height: 1vw;
     }
+
     .box-advice .box-inside .caption {
         line-height: auto;
         border-bottom: none;
@@ -315,12 +315,12 @@ p {
 
     .box-content .box .image-index {
         position: absolute;
-        top: 85px;
-        left: 107px;
-        width: 27px;
+        top: 90px;
+        left: 105px;
+        width: 30px;
     }
 
-    .advice-modul {
+    .advice-module {
         width: 394px;
     }
 
@@ -338,7 +338,7 @@ p {
         width: 27px;
     }
 
-    .advice-modul {
+    .advice-module {
         width: 355px;
     }
 
@@ -356,7 +356,7 @@ p {
         width: 27px;
     }
 
-    .advice-modul {
+    .advice-module {
         width: 300px;
     }
 }
