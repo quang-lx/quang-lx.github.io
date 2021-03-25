@@ -107,7 +107,7 @@ p {
     height: 2vw;
     border-radius: 50%;
     background: #000;
-    left: 13%;
+    left: 15%;
     top: 65%;
 }
 
@@ -315,10 +315,6 @@ p {
         width: 30px;
     }
 
-    .advice-module {
-        width: 394px;
-    }
-
 }
 
 @media screen and (max-width: 375px) {
@@ -333,8 +329,11 @@ p {
         width: 27px;
     }
 
-    .advice-module {
-        width: 355px;
+}
+
+@media screen and (max-width: 360px) {
+    .text-small-repo{
+        font-size: 14px;
     }
 
 }
@@ -349,10 +348,6 @@ p {
         top: 108px;
         left: 81px;
         width: 27px;
-    }
-
-    .advice-module {
-        width: 300px;
     }
 }
 
