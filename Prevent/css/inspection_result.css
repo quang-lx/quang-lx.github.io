@@ -32,7 +32,7 @@ p {
 }
 
 .box-content .title-box {
-    padding: 15px 20px 5px 20px;
+    padding: 15px 14px 5px 14px;
 }
 
 .box-content .title-box p {
@@ -43,7 +43,7 @@ p {
 }
 
 .box-content .inside-box {
-    padding: 0px 20px 0px 20px;
+    padding: 0px 14px 0px 14px;
 }
 
 .box-content .box {
@@ -114,12 +114,12 @@ p {
 
 .box-content .inside-box .select-table .select-note {
     writing-mode: vertical-rl;
-    font-size: 10px;
+    font-size: 2.6vw;
     margin-right: 3px;
 }
 
 .box-content .inside-box .select-table .evaluate {
-    font-size: 10px;
+    font-size: 2.6vw;
 }
 
 .box-see-ratings .content {
@@ -270,6 +270,42 @@ p {
 
 .btn-round-30 {
     border-radius: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .box-content .inside-box .select-table .select-note {
+        writing-mode: vertical-rl;
+        font-size: 13px;
+        margin-right: 3px;
+    }
+    
+    .box-content .inside-box .select-table .evaluate {
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+    .box-content .inside-box .select-table .select-note {
+        writing-mode: vertical-rl;
+        font-size: 16px;
+        margin-right: 3px;
+    }
+    
+    .box-content .inside-box .select-table .evaluate {
+        font-size: 16px;
+    }
+
+    .square-select .check-note {
+        width: 1vw;
+        height: 1vw;
+    }
+    .box-advice .box-inside .caption {
+        line-height: auto;
+        border-bottom: none;
+        border-right: 3px solid #2db0a5;
+    }
+
 }
 
 @media screen and (max-width: 425px) {
