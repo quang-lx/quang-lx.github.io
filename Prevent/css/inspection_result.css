@@ -212,26 +212,38 @@ p {
     position: relative;
 }
 
-.box-advice .evaluate-one::before {
-    content: '';
-    position: absolute;
-    bottom: -816px;
-    left: 30px;
-    width: 1px;
-    height: 816px;
-    background: #b0b0b0;
-}
 
 .box-advice .evaluate-two::before,
 .box-advice .evaluate-three::before {
     content: '';
     position: absolute;
     top: 50%;
-    left: -18px;
-    width: 1px;
-    height: 34px;
+    left: -34px;
+    width: 33px;
+    height: 1px;
     background: #b0b0b0;
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
+}
+
+.box-advice .evaluate-two::after{
+    content: '';
+    position: absolute;
+    bottom: 0%;
+    left: -34px;
+    width: 1px;
+    height: calc(100% + 22px);
+    background: #b0b0b0;
+}
+
+.box-advice .evaluate-three::after {
+    content: '';
+    position: absolute;
+    bottom: 50%;
+    left: -34px;
+    width: 1px;
+    height: calc(50% + 22px);
+    background: #b0b0b0;
+    /* transform: rotate(90deg); */
 }
 
 .advice-modul {
@@ -288,28 +300,6 @@ p {
         width: 394px;
     }
 
-    .box-advice .evaluate-one::before {
-        content: '';
-        position: absolute;
-        bottom: -818px;
-        left: 30px;
-        width: 1px;
-        height: 818px;
-        background: #b0b0b0;
-    }
-
-    .box-advice .evaluate-two::before,
-    .box-advice .evaluate-three::before {
-        content: '';
-        position: absolute;
-        top: 50%;
-        left: -18px;
-        width: 1px;
-        height: 35px;
-        background: #b0b0b0;
-        transform: rotate(90deg);
-    }
-
 }
 
 @media screen and (max-width: 375px) {
@@ -328,27 +318,6 @@ p {
         width: 355px;
     }
 
-    .box-advice .evaluate-one::before {
-        content: '';
-        position: absolute;
-        bottom: -862px;
-        left: 30px;
-        width: 1px;
-        height: 862px;
-        background: #b0b0b0;
-    }
-
-    .box-advice .evaluate-two::before,
-    .box-advice .evaluate-three::before {
-        content: '';
-        position: absolute;
-        top: 50%;
-        left: -15px;
-        width: 1px;
-        height: 28px;
-        background: #b0b0b0;
-        transform: rotate(90deg);
-    }
 }
 
 @media screen and (max-width: 320px) {
@@ -365,32 +334,6 @@ p {
 
     .advice-modul {
         width: 300px;
-    }
-
-    .box-advice .evaluate-one::before {
-        content: '';
-        position: absolute;
-        bottom: -1085px;
-        left: 30px;
-        width: 1px;
-        height: 1085px;
-        background: #b0b0b0;
-    }
-
-    .box-advice .evaluate-two::before,
-    .box-advice .evaluate-three::before {
-        content: '';
-        position: absolute;
-        top: 50%;
-        left: -11px;
-        width: 1px;
-        height: 18px;
-        background: #b0b0b0;
-        transform: rotate(90deg);
-    }
-
-    .box-content .box-left .text-value {
-        height: 55%;
     }
 }
 
