@@ -331,6 +331,13 @@ p {
 
 }
 
+@media screen and (max-width: 360px) {
+    .text-small-repo{
+        font-size: 14px;
+    }
+
+}
+
 @media screen and (max-width: 320px) {
     .box-content .box {
         width: 244px;
