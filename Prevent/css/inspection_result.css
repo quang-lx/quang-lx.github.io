@@ -315,10 +315,6 @@ p {
         width: 30px;
     }
 
-    .advice-module {
-        width: 394px;
-    }
-
 }
 
 @media screen and (max-width: 375px) {
@@ -333,10 +329,6 @@ p {
         width: 27px;
     }
 
-    .advice-module {
-        width: 355px;
-    }
-
 }
 
 @media screen and (max-width: 320px) {
@@ -349,10 +341,6 @@ p {
         top: 108px;
         left: 81px;
         width: 27px;
-    }
-
-    .advice-module {
-        width: 300px;
     }
 }
 
