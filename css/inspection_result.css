@@ -5,6 +5,7 @@
 .text-green {
     color: #00a092;
 }
+
 p {
     margin: 0px;
 }
@@ -268,7 +269,7 @@ p {
     background-color: #9fc9e5;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.98px) {
     .box-content .inside-box .select-table .select-note {
         writing-mode: vertical-rl;
         font-size: 12px;
@@ -281,14 +282,14 @@ p {
 
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
     .box-content .inside-box .select-table .select-note {
         writing-mode: vertical-rl;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .box-content .inside-box .select-table .evaluate {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .square-select .check-note {
@@ -312,7 +313,7 @@ p {
     .box-content .box .image-index {
         position: absolute;
         top: 90px;
-        left: 105px;
+        left: 106px;
         width: 30px;
     }
 
@@ -333,8 +334,19 @@ p {
 }
 
 @media screen and (max-width: 360px) {
-    .text-small-repo{
+    .text-small-repo {
         font-size: 14px;
+    }
+
+    .box-content .box {
+        width: 255px;
+    }
+
+    .box-content .box .image-index {
+        position: absolute;
+        top: 101px;
+        left: 84px;
+        width: 27px;
     }
 
 }
