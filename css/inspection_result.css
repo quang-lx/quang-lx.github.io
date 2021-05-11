@@ -277,6 +277,13 @@ p {
     /* transform: rotate(90deg); */
 }
 
+.width-50 {
+    width: 50%;
+}
+.border-md-bottom{
+    border-bottom: 1px solid #6c757d;
+}
+
 }
 
 @media screen and (min-width: 768px)  and (max-width:1024px) {
@@ -333,6 +340,9 @@ p {
         height: 20%;
         align-self: center!important;
         border-left: 2px solid #EE7785;
+    }
+    .border-box-bottom{
+        border-bottom: 1px solid #6c757d;
     }
 
 }
