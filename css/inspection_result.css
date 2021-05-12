@@ -10,6 +10,9 @@ p {
     margin: 0px;
 }
 
+.mt-custom-4{
+    margin-top: 1.8rem;
+}
 .border-gray {
     border-color: #999999 !important;
 }
