@@ -39,19 +39,21 @@
             </div>
         </div>
         <div class=" d-flex justify-content-md-around border-box-bottom row flex-wrap">
-            <div class="p-1 text-small-repo width-50 border-md-bottom" ><i
-            class="fas fa-square-full text-green fa-sm pr-1 " ></i><small>検査ID：</small><b>000000000</b>
+            <div class="p-1 text-small-repo width-50 border-md-bottom"><i
+                    class="fas fa-square-full text-green fa-sm pr-1 "></i><small>検査ID：</small><b>000000000</b>
             </div>
             <div class="p-1 text-small-repo width-50 border-md-bottom "><i
-            class="fas fa-square-full text-green fa-sm pr-1"></i><small>氏名：</small><b>真守
-            太郎</b></div>
-            <div class="p-1 text-small-repo width-50 border-md-bottom" ><i
-            class="fas fa-square-full text-green fa-sm pr-1"></i><small>生年月日：</small><b>1980.01.01</b>
+                    class="fas fa-square-full text-green fa-sm pr-1"></i><small>氏名：</small><b>真守 太郎</b>
+                <small>(男性)</small>
             </div>
             <div class="p-1 text-small-repo width-50 border-md-bottom"><i
-            class="fas fa-square-full text-green fa-sm pr-1"></i><small>性別：</small><b>男性</b>
+                    class="fas fa-square-full text-green fa-sm pr-1"></i><small>生年月日：</small><b
+                    class="w-25 d-inline-block">1980.01.01</b>
             </div>
+            <div class="p-1 text-small-repo width-50 border-md-bottom"><i
+                    class="fas fa-square-full text-green fa-sm pr-1"></i><small>報告日: </small><b>2021.05.05</b>
             </div>
+        </div>
         <div class="box-content mt-3 pb-3 box row">
             <div class="col-12 ">
                 <div class="title-box row">
@@ -70,9 +72,12 @@
                                                 <div class="title bg-green">
                                                     <p class="text-center text-white">あなたの総合評価<sup>※1</sup></p>
                                                 </div>
-                                                <div
-                                                    class="text-value d-flex align-items-center justify-content-center">
+                                                <div class="text-value justify-content-center align-items-center">
                                                     <p class="text-center">B</p>
+                                                    <button type="button"
+                                                        class="btn btn-warning-custom text-white mt-4 d-block mx-auto "><a
+                                                            class="text-white"
+                                                            href="result_description.html">解説</a></button>
                                                 </div>
                                             </div>
                                         </div>
@@ -113,35 +118,30 @@
 
                                     </div>
                                 </div>
-
-                                <div class="mt-3">
-                                    <div class="title"><b>総合評価：がんリスク評価①と②、２つの指標からなる総合解析評価</b></div>
-                                    <div>総合解析評価は、がんリスク評価①のポルフィリン代謝マーカーと、がんリスク評価②の尿中酸化ストレスマーカーの2つの指標をそれぞれA～Cの３段階で評価し、さらに2
-                                        つのリスクによる総合評価としてリスク段階を示しています。
-                                    </div>
-                                </div>
                             </div>
                             <div class="select-table mt-2 col-12 col-md-5">
                                 <div class="row">
 
                                     <div class="col-md-12 mb-3">
                                         <div class="d-flex justify-content-center">
-                                            <div class="select-note mt-custom-4"><i class="fas fa-caret-up text-danger pb-1 fa-lg"></i>
-                                                がんリスク評価②<br><div class="pt-2">（尿中酸化ストレスマーカー <span>8-OHdG）</span> </div></div>
+                                            <div class="select-note mt-custom-4"><i
+                                                    class="fas fa-caret-up text-danger pb-1 fa-lg"></i>
+                                                がんリスク評価②<br>
+                                                <div class="pt-2">（尿中酸化ストレスマーカー <span>8-OHdG）</span> </div>
+                                            </div>
                                             <div class="square-select col-10 px-0">
                                                 <div class="col-md-12 text-center mb-2"><b>解析結果イメージ図</b></div>
-                                                <div class='square-box border border-gray'></div>
-                                                <div class="evaluate text-right"><span>がんリスク評価①<i class="fas fa-caret-right text-danger fa-lg pl-1"></i><br>（ポルフィリン代謝マーカー）</span></div>
+                                                <div class='square-box border border-gray' id="square-box"></div>
+                                                <div class="evaluate text-right"><span>がんリスク評価①<i
+                                                            class="fas fa-caret-right text-danger fa-lg pl-1"></i><br>（ポルフィリン代謝マーカー）</span>
+                                                </div>
+
                                             </div>
                                         </div>
+                                        <button type="button"
+                                            class="btn btn-warning-custom text-white mt-4 d-block mx-auto"><a
+                                                class="text-white" href="plot_description.html">説明画面へ</a></button>
                                     </div>
-                                    <div class="col-md-12">
-                                        <div class="note-select p-1 mb-4">
-                                            <b>【解析結果イメージ図の見かた】</b><br>
-                                            上の図の●があなたの位置です。左下に行くほどリスク値が低く、右上に行くほど高くなります。
-                                        </div>
-                                    </div>
-
                                 </div>
                             </div>
                         </div>
@@ -149,14 +149,10 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 px-0 my-3">
-                <a href="guide.html" class="btn btn-lg bg-light-blue d-block rounded-pill">総合評価がCの方はこちら</a>
-            </div>
-        </div>
+
         <div class="box-percentile pb-1 mt-2 row">
             <div class="col-12  title text-center text-white">
-                <b>あなたのパーセンタイル値<sup>※2</sup></b>
+                <b>あなたのパーセンタイル値</b>
             </div>
             <div class="col-6">
                 <p>当社のこれまでの総解析数において</p>
@@ -178,23 +174,26 @@
             </div>
         </div>
         <div class="row">
-            <p class="pt-1 small">※2 : パーセンタイル値は、あなたが総解析数の中でどのくらいの位置にいるかを表す参考値です。今後の経過にお役立てください。</p>
+            <button type="button" class="btn btn-warning-custom text-white mt-4 d-block mx-auto"><a class="text-white"
+                    href="plot_description.html">説明画面へ</a></button>
         </div>
         <div class="row">
             <div class="col-12 py-3 bg-green mt-4">
             </div>
             <div class="title">
-                <p class="text-green my-3 h3"> <span>アドバイス</span> <span class="d-md-inline d-block">(医師からのコメント)</span></p>
+                <p class="text-green my-3 h3"> <span>アドバイス</span> <span class="d-md-inline d-block">(医師からのコメント)</span>
+                </p>
             </div>
         </div>
+
         <div class="row advice-module">
             <div class="col-12 box-advice justify-content-end">
                 <div class="row">
                     <div class="col-md-4 p-md-0">
                         <div class="row box-inside evaluate-one">
                             <div class="col-12 caption mb-3 mb-md-0 mb-lg-3 text-center ">
-                                    <p class="h3 font-weight-bold mr-md-4">総合評価</p>
-                                    <div class="h1 mr-md-4">B</div>
+                                <p class="h3 font-weight-bold mr-md-4">総合評価</p>
+                                <div class="h1 mr-md-4">B</div>
                             </div>
                             <div class="col-12">
                                 <p class="text-justify mr-md-4">
@@ -218,7 +217,8 @@
                                 <div class="row m-0">
                                     <div class="col-md-12 caption mb-3 mb-md-0 mb-lg-3 text-center">
                                         <p>
-                                            <span class="h5 font-weight-bold">がんリスク評価①</span><br><span class="small">ポルフィリン代謝マーカー</span>
+                                            <span class="h5 font-weight-bold">がんリスク評価①</span><br><span
+                                                class="small">ポルフィリン代謝マーカー</span>
                                         </p>
                                         <div class="h2">A</div>
                                     </div>
@@ -243,7 +243,8 @@
                                 <div class="row m-0 p-md-0">
                                     <div class="col-md-12 caption mb-3 mb-md-0 mb-lg-3 text-center p-md-0">
                                         <p>
-                                            <span class="h5 font-weight-bold  ml-md-4">がんリスク評価②</span><br><span class="small ml-md-4">尿中酸化ストレスマーカー8-OHdG</span>
+                                            <span class="h5 font-weight-bold  ml-md-4">がんリスク評価②</span><br><span
+                                                class="small ml-md-4">尿中酸化ストレスマーカー8-OHdG</span>
                                         </p>
                                         <div class="h2">B</div>
                                     </div>
@@ -269,326 +270,112 @@
 
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 py-3 bg-green mt-2">
-            </div>
-            <div class="title">
-                <p class="text-green my-3 h3">リスクランクの目安</p>
-            </div>
-            <div class="col-12 box-inside-rating">
-                <div class="row">
-                    <div class="col-12 col-md-4 box-inside p-md-0">
-                        <div class="row m-0 no-gutters">
-                            <div class="col-5 col-md-12 caption text-center">
-                                <div
-                                    class="text-md-left d-flex align-items-center justify-content-center justify-content-md-start  h-100">
-                                    <div class="title">
-                                        <div class="h1 d-md-inline mr-3 mr-md-4">A</div>
-                                        <span>相対リスク値<sup>※3</sup>：~2</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-7 col-md-12">
-                                <p class="text-justify px-3 px-md-0 mr-md-4">
-                                    基準統計データでは、健康な方のレベルに近いことを統計的に示しています。他の要因※4
-                                    による影響が考えられない場合、統計的上の体内環境は健常者に近い状態にあることを示しています。
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 box-inside">
-                        <div class="row m-0 no-gutters">
-                            <div class="col-5 col-md-12 caption text-center p-md-0">
-                                <div
-                                    class="text-md-left d-flex align-items-center justify-content-center justify-content-md-start h-100">
-                                    <div class="title">
-                                        <div class="h1 d-md-inline mr-3">B</div>
-                                        <span>相対リスク値：3~4</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-7 col-md-12 p-md-0">
-                                <p class="text-justify px-3 px-md-0">
-                                    基準統計データでは、がんリスクの割合がやや高まっている可能性があります。他の要因※による影響が考えられない場合、統計上の体内環境は健常者よりもがん患者にやや近い状態にあることを示しています。
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 box-inside p-md-0">
-                        <div class="row m-0 no-gutters">
-                            <div class="col-5 col-md-12 caption text-center">
-                                <div class="h-100 align-items-center text-center">
-                                    <div
-                                        class="text-md-left d-flex align-items-center justify-content-center justify-content-md-start h-100">
-                                        <div class="title">
-                                            <div class="h1 d-md-inline mr-3 ml-md-4">C</div>
-                                            <span>相対リスク値：~10</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-7 col-md-12">
-                                <p class="text-justify px-3 px-md-0 ml-md-4">
-                                    基準統計データでは、がんリスクの割合が高まっている可能性があります。他の要因※による影響が考えられない場合、統計上の体内環境は健常者よりもがん患者に近い状態にあることを示しています。
-                                </p>
-                            </div>
-                        </div>
-                    </div>
 
-                </div>
-            </div>
+        <div class="row">
+            <div class="col-12 bg-gray py-3 mt-3"></div>
         </div>
         <div class="row">
-            <p class="small pt-md-3">※3：相対リスク値は～</p>
-        </div>
-        <div class="row">
-            <div class="col-12 py-3 bg-green mt-4">
-            </div>
-            <div class="title">
-                <p class="text-green my-3 h3">指標別分析結果の解説</p>
-            </div>
-            <div class="col-12 box-interpretation-results">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-12  box-result mb-2 p-2">
-                                <h5 class="font-weight-bold">がんリスク評価①ポルフィリン代謝マーカー とは</h5>
-                                <p class="text-justify">健康な細胞は
-                                    ALA※は鉄と結合して、ヘムというタンパク質になりますが、がん細胞は鉄をうまく利用できず、ポルフィリンという代謝産物が血液や尿に排泄されるようになります。がんリスク評価①ではこの物質を細胞代謝マーカーとして測定しています。
-                                </p>
-                            </div>
-                            <div class="col-md-12 box-result my-4 p-2">
-                                <h5 class="font-weight-bold">がんリスク評価②尿中酸化ストレスマーカー 8-OHdG とは</h5>
-                                <p class="text-justify">
-                                    慢性的な疾患、疲労や寝不足、タバコや過度な飲酒、偏った食生活などが続くと、活性酸素種が増加して酸化ストレスが蓄積します。酸化ストレスは、老化の促進、生活習慣病やがんなどの発症などに関与すると考えられています。酸化ストレス過多になると
-                                    DNA、脂質、タンパク質等の生体成分にダメージを与え、8-
-                                    ヒドロキシーデオキシグアノシン（8-OHdG）が生成されます。がんリスク評価②では、この物質を尿中酸化ストレスマーカー（8-OHdG）として測定しています。</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-12 p-0 pl-md-3">
-                                <p class="text-justify col-md-12 p-0">
-                                    この図は、尿に排出されるがんリスク評価①（ポルフィリン代謝マーカー）と、がんリスク評価②（尿中酸化ストレスマーカー
-                                    8-OHdG）をイメージしたものです。健康な細胞は自らエネルギーをつくり活動していますが、環境の変化で通常の生命機能が低下した細胞では、エネルギー産生に利用できない物質が蓄積します。リスク評価
-                                    Noah は、この機能低下により尿に排出される2つの指標の変化を総合的に解析しています。</p>
-                                <div class="col-12 col-lg-7 mx-auto p-0">
-                                    <img class="img-fluid mx-auto d-block w-100" src="./images/cancer.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-12 text-center my-3">
+                <h4 class="txt-color-pink font-weight-bold">生活習慣リスクチェック</h4>
+                <p>
+                    この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。
+                </p>
             </div>
         </div>
-        <div class="row mt-4">
-            <div class="col-12 py-3 bg-gray"></div>
-            <div class="col-12 my-3 px-0">
-                <p class="txt-color-pink h3">ピロリ菌・生活習慣病リスク　検査結果</p>
-            </div>
-        </div>
-        <div class="row">
+        <div class="row my-3">
             <div class="col-12 px-0">
+
                 <div class="bg-light-pink">
                     <div class="p-4 mx-1">
                         <div class="row">
                             <div class="col-12 bg-white">
-                                <div class="bg-dark-pink mt-4 text-white p-1"><b>ピロリ菌感染リスク</b></div>
-                                <p class="my-2 small"><b>※ピロリ菌検査は初回のみです</b></p>
+                                <div class="bg-dark-pink my-3 text-white p-1"><b>BMI</b></div>
                                 <div class="row">
-                                    <div
-                                        class="col-md-2 col-4 text-center d-flex justify-content-center align-items-center h2">
-                                        (+)
-                                    </div>
-                                    <div class="col-md-4 col-8 d-flex pl-0">
-                                        <div class="hr-vertical pl-4"></div>
-
-                                        <div class="ml-2 align-self-center">
-                                            <p>感染リスク大</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-12">
-                                        <div class="row mt-2">
-                                            <div class="col-12">
-                                                <p class="text-justify">
-                                                    ピロリ菌感染は胃がんのリスク要因と言われています。陽性の疑いがある場合は医療機関で精密検査を実施し、除菌治療など医師からのアドバイスを受けてください。
-                                                </p>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="row mt-2">
-                                            <div class="col-12">
-                                                <p class="small"><b>ピロリ菌ってなに？</b></p>
-                                                <p class="text-justify small">
-                                                    ピロリ菌（ヘリコバクター・ピロリ）は萎縮性の胃炎を起こしたり、胃腸消化器症状の原因となることが知られています。胃がんは慢性化した萎縮性胃炎から発症するといわれています。胃炎の原因となるピロリ菌を排除することで胃がん発症リスクの軽減が期待できます。
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="row my-3">
-                                            <div class="col-md-10 col-8 pr-0">
-                                                <p class="small"><b>除菌できます</b></p>
-                                                <p class="text-justify small">
-                                                    自覚症状のない感染症ですが、早期発見できれば除菌治療を行うことができます。胃酸分泌抑制剤と抗生物質を用いた治療法が確立されており、多くの場合この治療法で除菌できることがわかっています。
-                                                </p>
-                                            </div>
-                                            <div class="col-4 col-md-2 mt-4 mt-md-0">
-                                                <img src="./images/stomach.png" class="img-fluid mx-auto d-block img-stomach">
-                                            </div>
-                                        </div>
-                                        <div class="row mt-2 mb-4">
-                                            <div class="col-12">
-                                                <p class="small"><b>リスク検査</b></p>
-                                                <p class="text-justify small">
-                                                    ピロリ菌に感染していると、血液や尿中に菌に対する抗体の断片が検出されます。当リスク検査ではこの抗体断片を測定しています。</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row my-2">
-            <div class="col-12 px-0 small">
-                <p class="text-justify">※ピロリ菌の除去処理直後は、抗体価低下に時間がかかるため陽性と評価される場合があります。 また、除去後も抗体が残っていると陽性になる場合があります。</p>
-            </div>
-        </div>
-        <div class="row mt-4">
-            <div class="col-12 px-0">
-                <div class="bg-light-pink">
-                    <div class="p-4 mx-1">
-                        <div class="row">
-                            <div class="col-12 bg-white">
-                                <div class="bg-dark-pink mt-4 text-white p-1"><b>BMI</b></div>
-                                <div class="row">
-                                    <div
+                                    <a href="risk_description.html"
                                         class="col-md-2 col-4 text-center d-flex justify-content-center align-items-center h2">
                                         00.0
-                                    </div>
+                                    </a>
                                     <div class="col-md-4 col-8 d-flex pl-0">
                                         <div class="mt-1">
                                             <p>あなたのBMI値は一般的に低体重の傾向にある範囲のBMIといえます。</p>
-                                            <div class="border-danger border p-1 mt-1  w-100">目標値の目安<br>
-                                                18 - 49歳：18.5~24.9<br>
-                                                50 - 69歳：20.0~24.9<br>
-                                                70歳以上：21.0~24.9
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-12">
-                                        <div class="row mt-2">
-                                            <div class="col-12">
-                                                <p class="text-justify">BMI（Body Mass
-                                                    Index）はボディマス指数と呼ばれ、体重と身長から算出される肥満度を表す体格指数です。厚生労働省の食事摂取基準2015では、上記の範囲を目標としています。食生活や生活習慣の見直しの目安としてください。
-                                                </p>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="bg-dark-pink mt-4 text-white p-1"><b>1日の塩分摂取量</b></div>
+                                <div class="bg-dark-pink my-3 text-white p-1"><b>1日の塩分摂取量</b></div>
                                 <div class="row">
-                                    <div
+                                    <a href="risk_description.html"
                                         class="col-md-2 col-4 text-center d-flex justify-content-center align-items-center h2">
                                         0.0g
-                                    </div>
+                                    </a>
                                     <div class="col-md-4 col-8  d-flex pl-0">
                                         <div class="mt-1  w-100">
                                             <p>あなたの塩分摂取量：平均よりやや多い</p>
-                                            <div class="border-danger border p-1 mt-1 d-block">1日の塩分摂取量（厚生労働省推奨）<br>
-                                                男性：8g未満<br>
-                                                女性：7g未満
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-12">
-                                        <div class="row mt-2">
-                                            <div class="col-12">
-                                                <p class="text-justify">
-                                                    慢性的な塩分の摂取過多は、高血圧や心・血管系疾患のリスク要因と考えられています。摂取量が多い場合は、食生活を見直しましょう。</p>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="bg-dark-pink mt-4 text-white p-1"><b>尿糖</b></div>
+                                <div class="bg-dark-pink my-3 text-white p-1"><b>尿糖</b></div>
                                 <div class="row">
-                                    <div
+                                    <a href="risk_description.html"
                                         class="col-md-2 col-4 text-center d-flex justify-content-center align-items-center h2">
                                         (−)
-                                    </div>
+                                    </a>
                                     <div class="col-md-4 col-8 d-flex pl-0">
                                         <div class="mt-1  w-100">
                                             <p>あなたの尿糖：健常者レベル</p>
-                                            <div class="border-danger border p-1 mt-1 d-block">(−)：低リスク<br>
-                                                (+−)：リスク疑いあり<br>
-                                                (1+)~(4+)：+の数が多いほど高リスク
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-12">
-                                        <div class="row mt-2">
-                                            <div class="col-12">
-                                                <p class="text-justify">
-                                                    健常者では一般的には尿糖は検出されませんが、血糖値が170〜１８０mg・mg㎗以上になると、体内で糖が代謝しきれずに尿糖反応が陽性になるといわれています（耐糖性の低下）。糖分の摂りすぎだけではなく、糖の代謝に関わるインスリンの働きに問題が出ても血糖値が上がり、尿糖値も上がります。なお、お薬を服用されている場合は参考結果となります。
-                                                </p>
-                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="bg-dark-pink mt-4 text-white p-1"><b>尿たんぱく</b></div>
+                                <div class="bg-dark-pink my-3 text-white p-1"><b>尿たんぱく</b></div>
                                 <div class="row">
-                                    <div
-                                        class="col-md-2 col-4 text-center d-flex justify-content-center align-items-center h2">(+-)
-                                    </div>
+                                    <a href="risk_description.html"
+                                        class="col-md-2 col-4 text-center d-flex justify-content-center align-items-center h2">
+                                        (+-)
+                                    </a>
                                     <div class="col-md-4 col-8 d-flex pl-0">
                                         <div class="mt-1  w-100">
                                             <p>あなたの尿たんぱく：腎機能低下の可能性あり</p>
-                                            <div class="border-danger border p-1 mt-1 d-block">(−)：低リスク<br>
-                                                (+−)：リスク疑いあり<br>
-                                                (1+)~(4+)：+の数が多いほど高リスク
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-12">
-                                        <div class="row mt-2 mb-2">
-                                            <div class="col-12">
-                                                <p class="text-justify">
-                                                    血液中のたんぱく質は腎臓で再吸収されるので、通常は尿中に出ることはありません。しかし、腎機能が低下すると尿中にたんぱく質が検出されるようになります。
-                                                </p>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="bg-dark-pink mt-4 text-white p-1"><b>尿潜血反応</b></div>
+                                <div class="bg-dark-pink my-3 text-white p-1"><b>尿潜血反応</b></div>
                                 <div class="row">
-                                    <div
+                                    <a href="risk_description.html"
                                         class="col-md-2 col-4 text-center d-flex justify-content-center align-items-center h2">
                                         (4+)
-                                    </div>
+                                    </a>
                                     <div class="col-md-4 col-8 d-flex pl-0">
                                         <div class="mt-1  w-100">
                                             <p>あなたの尿潜血反応：尿鮮血が検出される</p>
-                                            <div class="border-danger border p-1 mt-1 d-block">(−):低リスク<br>
-                                                (+−):リスク疑いあり<br>
-                                                (1+)~(4+):+の数が多いほど高リスク
-                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-12">
-                                        <div class="row mt-2 mb-4">
-                                            <div class="col-12">
-                                                <p class="text-justify">尿潜血反応は、以下の状態によっても高リスク（＋）になることがあります。<br>
-                                                    ・生理中、一時的なストレス、激しい運動の後など<br>
-                                                    ・結石、腎炎、膀胱炎、膀胱がんなど、尿路系器官に症状ある場合</p>
-                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center my-3">
+                        <h4 class="txt-color-pink font-weight-bold">ピロリ菌リスクチェック</h4>
+                    </div>
+                </div>
+                <div class="bg-light-pink ">
+                    <div class="p-4 mx-1">
+                        <div class="row">
+                            <div class="col-12 bg-white">
+                                <div class="bg-dark-pink my-3 text-white p-1"><b>ピロリ菌感染リスク</b></div>
+                                <div class="row">
+                                    <a href="risk_description.html"
+                                        class="col-md-2 col-4 text-center d-flex justify-content-center align-items-center h2">
+                                        (+)
+                                    </a>
+                                    <div class="col-md-4 col-8 d-flex pl-0">
+                                        <div class="mt-1  w-100">
+                                            <p>感染リスク大</p>
                                         </div>
                                     </div>
                                 </div>
@@ -596,11 +383,14 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-warning-custom text-white mt-4 d-block mx-auto"><a
+                            class="text-white" href="risk_description.html">説明画面へ</a></button>
                 </div>
             </div>
         </div>
     </div>
-    <a id="toTop" href="#" class="btn btn-lg rounded-circle btn-danger" role="button"><i class="fas fa-chevron-up"></i></a>
     <script src="./js/jquery-1.9.1.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
