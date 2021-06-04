@@ -24,28 +24,6 @@ function setPostionCheckNote(checknote,position_check_left,position_check_top) {
 }
 drawSquare()
 setPostionCheckNote('check-note','50%','50%')
-
-/*caculate arrow position*/
-
-function calculateArrowPosition() {
-    let arrowImg = $('#arrowImg');
-    let cop = $('#copRiskTitle');
-    let deoxy = $('#deoxyRiskTitle');
-
-    let copCenterY = cop.offset().top+ cop.outerHeight() / 2;
-    let deoxyCenterY = deoxy.offset().top +deoxy.outerHeight() / 2;
-
-    let imgOffsetTop = copCenterY;
-    let newImgHeight = deoxyCenterY - copCenterY;
-
-    arrowImg.offset({ top: imgOffsetTop });
-    arrowImg.height(newImgHeight);
-    arrowImg.width($('#arrowImgDiv').outerWidth());
- }
-
-$(document).ready(function() {
-    calculateArrowPosition();
-    $(window).resize(function() {
-        calculateArrowPosition();
-    });
-});
+setPostionCheckNote('check-note1','0%','100%')
+setPostionCheckNote('check-note2','50%','50%')
+setPostionCheckNote('check-note3','100%','0%')
