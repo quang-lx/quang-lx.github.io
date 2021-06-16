@@ -24,6 +24,6 @@ function setPostionCheckNote(checknote,position_check_left,position_check_top) {
 }
 drawSquare()
 setPostionCheckNote('check-note','50%','50%')
-setPostionCheckNote('check-note1','0%','100%')
+setPostionCheckNote('check-note1','22%','82%')
 setPostionCheckNote('check-note2','50%','50%')
-setPostionCheckNote('check-note3','100%','0%')
+setPostionCheckNote('check-note3','84%','17%')
