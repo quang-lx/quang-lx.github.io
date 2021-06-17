@@ -91,16 +91,10 @@ a{
 
 .square-select .check-note {
     position: absolute;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    position: absolute;
     width: 2vw;
     height: 2vw;
     border-radius: 50%;
     background: #000;
-    left: 15%;
-    top: 65%;
 }
 
 .box-content .inside-box .select-table .evaluate {
@@ -360,6 +354,13 @@ a{
 @media screen and (max-width: 360px) {
     .text-small-repo {
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .square-select .check-note {
+        width: 8px;
+        height: 8px;
     }
 }
 
