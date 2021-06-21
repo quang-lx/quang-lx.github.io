@@ -452,11 +452,7 @@ a{
 
 @media screen and (max-width: 320px) {
     .box-content .inside-box .select-table .select-note {
-        writing-mode: vertical-rl;
-       
         font-size: 10px;
-        word-spacing: 5px;
-
     }
 
     .box-content .inside-box .select-table .evaluate {
