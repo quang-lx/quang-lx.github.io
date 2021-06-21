@@ -215,13 +215,13 @@ a{
     .box-content .inside-box .select-table .select-note {
         writing-mode: vertical-rl;
        
-        font-size: 12px;
+        font-size: 10px;
         word-spacing: 5px;
 
     }
 
     .box-content .inside-box .select-table .evaluate {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .box-inside-rating .box-inside,
@@ -290,16 +290,18 @@ a{
 
 }
 
+
+
 @media screen and (min-width: 768px)  and (max-width:1024px) {
     .box-content .inside-box .select-table .select-note {
         word-spacing: 5px;
         writing-mode: vertical-rl;
        
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .box-content .inside-box .select-table .evaluate {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .square-select .check-note {
@@ -318,11 +320,11 @@ a{
         word-spacing: 5px;
         writing-mode: vertical-rl;
        
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .box-content .inside-box .select-table .evaluate {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .square-select .check-note {
@@ -350,14 +352,36 @@ a{
     }
 
 }
+@media screen and (max-width: 425px) {
+    .box-content .inside-box .select-table .select-note {
+        writing-mode: vertical-rl;
+       
+        font-size: 12px;
+        word-spacing: 5px;
 
-@media screen and (max-width: 360px) {
-    .text-small-repo {
-        font-size: 14px;
     }
+
+    .box-content .inside-box .select-table .evaluate {
+        font-size: 12px;
+    }
+
 }
 
+
+
+
 @media screen and (max-width: 375px) {
+    .box-content .inside-box .select-table .select-note {
+        writing-mode: vertical-rl;
+       
+        font-size: 10px;
+        word-spacing: 5px;
+
+    }
+
+    .box-content .inside-box .select-table .evaluate {
+        font-size: 10px;
+    }
     .square-select .check-note {
         width: 8px;
         height: 8px;
@@ -402,4 +426,28 @@ a{
 
 .btn-warning-custom{
     background-color: #be9000;
+}
+
+@media screen and (max-width: 360px) {
+    .text-small-repo {
+        font-size: 14px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+    .box-content .inside-box .select-table .select-note {
+        writing-mode: vertical-rl;
+       
+        font-size: 10px;
+        word-spacing: 5px;
+
+    }
+
+    .box-content .inside-box .select-table .evaluate {
+        font-size: 10px;
+    }
+
 }
