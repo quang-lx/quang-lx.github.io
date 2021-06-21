@@ -214,9 +214,9 @@ a{
 @media screen and (max-width: 767.98px) {
     .box-content .inside-box .select-table .select-note {
         writing-mode: vertical-rl;
-        text-orientation: upright;
+       
         font-size: 12px;
-        word-spacing: -20px;
+        word-spacing: 5px;
 
     }
 
@@ -292,9 +292,9 @@ a{
 
 @media screen and (min-width: 768px)  and (max-width:1024px) {
     .box-content .inside-box .select-table .select-note {
-        word-spacing: -20px;
+        word-spacing: 5px;
         writing-mode: vertical-rl;
-        text-orientation: upright;
+       
         font-size: 11px;
     }
 
@@ -315,9 +315,9 @@ a{
 @media screen and (min-width: 1024px) {
 
     .box-content .inside-box .select-table .select-note{
-        word-spacing: -20px;
+        word-spacing: 5px;
         writing-mode: vertical-rl;
-        text-orientation: upright;
+       
         font-size: 14px;
     }
 
