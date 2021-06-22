@@ -371,7 +371,7 @@ a{
     }
 
     .plot_description .evaluate, .select-note  {
-        font-size: 8px;
+        font-size: 11px;
     }
 
     .box-content .inside-box .select-table .evaluate {
@@ -392,15 +392,16 @@ a{
 
     }
 
+    .plot_description .evaluate, .select-note  {
+        font-size: 10px;
+    }
+
     .box-content .inside-box .select-table .evaluate {
         font-size: 10px;
     }
     .square-select .check-note {
         width: 8px;
         height: 8px;
-    }
-    .plot_description .evaluate, .select-note  {
-        font-size: 7px;
     }
 }
 
@@ -459,11 +460,7 @@ a{
     }
 
     .plot_description .evaluate, .select-note  {
-        font-size: 6px;
-    }
-
-    .box-percentile p{
-        font-size: 14px;
+        font-size: 9px;
     }
 
     .box-content .inside-box .select-table .evaluate {
