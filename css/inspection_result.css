@@ -371,7 +371,7 @@ a{
     }
 
     .plot_description .evaluate, .select-note  {
-        font-size: 7px;
+        font-size: 8px;
     }
 
     .box-content .inside-box .select-table .evaluate {
@@ -398,6 +398,9 @@ a{
     .square-select .check-note {
         width: 8px;
         height: 8px;
+    }
+    .plot_description .evaluate, .select-note  {
+        font-size: 7px;
     }
 }
 
@@ -453,6 +456,10 @@ a{
 @media screen and (max-width: 320px) {
     .box-content .inside-box .select-table .select-note {
         font-size: 10px;
+    }
+
+    .plot_description .evaluate, .select-note  {
+        font-size: 6px;
     }
 
     .box-percentile p{
