@@ -455,6 +455,10 @@ a{
         font-size: 10px;
     }
 
+    .box-percentile p{
+        font-size: 14px;
+    }
+
     .box-content .inside-box .select-table .evaluate {
         font-size: 10px;
     }

@@ -5,3 +5,11 @@
 .bg-light-blue {
     background-color: #9fc9e5;
 }
+
+
+@media screen and (max-width: 320px) {
+    .rounded-pill{
+        font-size: 19px;
+    }
+
+}
