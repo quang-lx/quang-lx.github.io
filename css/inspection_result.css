@@ -347,6 +347,14 @@ a{
         width: 60%;
     }
 
+    .bg-light-pink p{
+        font-size: 22px;
+    }
+
+    .plot-describe{
+        font-size: 22px;
+    }
+
 }
 
 
@@ -358,6 +366,9 @@ a{
     }
     .border-box-bottom{
         border-bottom: 1px solid #6c757d;
+    }
+    .pylori-text{
+        font-size: 22px;
     }
 
 }

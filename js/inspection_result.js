@@ -1,6 +1,7 @@
 let square_box = $('.square-box')
 let amount_row = 5
 let amount_column = 5
+var pylori_text = $('.pylori-text').html()
 
 function drawSquare() {
     let html_square =" <table> <tbody>"
@@ -79,6 +80,13 @@ function calculateArrowPosition() {
     arrowImg.offset({ top: imgOffsetTop });
     arrowImg.height(newImgHeight);
     arrowImg.width($('#arrowImgDiv').outerWidth());
+    var width_window = $(window).width();
+    if (width_window >= 768) {
+        $('.pylori-text').html(pylori_text.replace("<br>", ""))
+    }else{
+        $('.pylori-text').html(pylori_text)
+    }
+    
  }
 
 $(document).ready(function() {
