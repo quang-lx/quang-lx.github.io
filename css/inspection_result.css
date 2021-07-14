@@ -347,9 +347,6 @@ a{
         width: 60%;
     }
 
-    .bg-light-pink p{
-        font-size: 22px;
-    }
 
     .plot-describe{
         font-size: 22px;
@@ -367,7 +364,8 @@ a{
     .border-box-bottom{
         border-bottom: 1px solid #6c757d;
     }
-    .pylori-text{
+    
+    .bg-light-pink p{
         font-size: 22px;
     }
 
@@ -387,6 +385,9 @@ a{
 
     .box-content .inside-box .select-table .evaluate {
         font-size: 12px;
+    }
+    .plot-describe{
+        padding-left: 10px;
     }
 
 }
