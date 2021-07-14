@@ -368,6 +368,9 @@ a{
     .bg-light-pink p{
         font-size: 22px;
     }
+    .plot-describe-diagram{
+        font-size: 22px;
+    }
 
 }
 @media screen and (max-width: 425px) {
